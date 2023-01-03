@@ -210,4 +210,6 @@ It's important to note that look-ahead and look-behind are "zero-width" assertio
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This gist was written by Megan Rakow, a full-stack bootcamp student.
+
+GitHub: https://github.com/megsra17
