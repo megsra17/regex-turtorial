@@ -76,11 +76,11 @@ In regular expressions, quantifiers are used to specify how many times a regex c
 
 3. `?`: The question mark means "zero or one time". For example, the regex a? would match the strings "a" or "", but not the string "aa".
 
-4. {n}: The curly braces are used to specify an exact number of repetitions. For example, the regex a{3} would match the string "aaa" but not the string "aa" or "aaaa".
+4. `{n}`: The curly braces are used to specify an exact number of repetitions. For example, the regex a{3} would match the string "aaa" but not the string "aa" or "aaaa".
 
-5. {n,}: The curly braces with a comma are used to specify a minimum number of repetitions. For example, the regex a{3,} would match any string containing at least three "a" characters, such as "aaaa" or "aaaaaa".
+5. `{n,}`: The curly braces with a comma are used to specify a minimum number of repetitions. For example, the regex a{3,} would match any string containing at least three "a" characters, such as "aaaa" or "aaaaaa".
 
-6. {n,m}: The curly braces with a comma are used to specify a minimum and maximum number of repetitions. For example, the regex a{3,5} would match any string containing at least three and at most five "a" characters, such as "aaa" or "aaaaa".
+6. `{n,m}`: The curly braces with a comma are used to specify a minimum and maximum number of repetitions. For example, the regex a{3,5} would match any string containing at least three and at most five "a" characters, such as "aaa" or "aaaaa".
 
 ### OR Operator
 
@@ -92,15 +92,15 @@ In regular expressions, character classes are used to match any character that b
 
 Here are some examples of character classes:
 
-1. [abc]: This character class would match any character that is either "a", "b", or "c".
+1. `[abc]`: This character class would match any character that is either "a", "b", or "c".
 
-2. [a-z]: This character class would match any lowercase letter (a-z).
+2. `[a-z]`: This character class would match any lowercase letter (a-z).
 
-3. [A-Z]: This character class would match any uppercase letter (A-Z).
+3. `[A-Z]`: This character class would match any uppercase letter (A-Z).
 
-4. [0-9]: This character class would match any digit (0-9).
+4. `[0-9]`: This character class would match any digit (0-9).
 
-5. [^a-z]: This character class would match any character that is not a lowercase letter (a-z).
+5. `[^a-z]`: This character class would match any character that is not a lowercase letter (a-z).
 
 ### Flags
 
@@ -142,7 +142,7 @@ A bracket expression is a special syntax used in regular expressions to match an
 
 Here are some examples of bracket expressions:
 
-1. [abc]: This bracket expression would match any character that is either "a", "b", or "c".
+1. `[abc]`: This bracket expression would match any character that is either "a", "b", or "c".
 
 2. `[a-z]`: This bracket expression would match any lowercase letter (a-z).
 
