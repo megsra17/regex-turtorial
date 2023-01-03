@@ -2,7 +2,7 @@
 
 ## Description
 
-This tutorialexplains how regex works by breaking down each part of the expression and describing what it does.
+This tutorial explains how regex works by breaking down each part of the expression and describing what it does.
 
 ## Questions
 
