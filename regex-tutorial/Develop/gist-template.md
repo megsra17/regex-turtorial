@@ -132,7 +132,7 @@ For example, the regex (cat) would capture the word "cat" and store it in captur
 
 Here's an example of how you might use grouping and capturing in a regular expression:
 
-/(cat)s?/
+`/(cat)s?/`
 
 This regex uses grouping to apply the optional quantifier (?) to the word "cat", and also uses capturing to store the word "cat" in capture group 1. If the regex matches the string "cats", the captured text would be "cat".
 
@@ -144,13 +144,13 @@ Here are some examples of bracket expressions:
 
 1. [abc]: This bracket expression would match any character that is either "a", "b", or "c".
 
-2. [a-z]: This bracket expression would match any lowercase letter (a-z).
+2. `[a-z]`: This bracket expression would match any lowercase letter (a-z).
 
-3. [A-Z]: This bracket expression would match any uppercase letter (A-Z).
+3. `[A-Z]`: This bracket expression would match any uppercase letter (A-Z).
 
-4. [0-9]: This bracket expression would match any digit (0-9).
+4. `[0-9]`: This bracket expression would match any digit (0-9).
 
-5. [^a-z]: This bracket expression would match any character that is not a lowercase letter (a-z).
+5. `[^a-z]`: This bracket expression would match any character that is not a lowercase letter (a-z).
 
 ### Greedy and Lazy Match
 
@@ -158,8 +158,8 @@ In regular expressions, "greedy" and "lazy" refer to the way in which the regex 
 
 For example, consider the following regex and string:
 
-Regex: <.+>
-String: <em>hello</em>
+`Regex: <.+>
+String: <em>hello</em>`
 
 f the regex engine is greedy, it will match the entire string, from the opening < to the closing >, because that is the longest possible match for the .+ pattern.
 
@@ -187,14 +187,14 @@ In regular expressions, back-references are used to match a previously captured 
 
 For example, consider the following regex and string:
 
-Regex: (cat)\1
-String: catcat
+`Regex: (cat)\1
+String: catcat`
 
 In this example, the regex uses a back-reference (\1) to match the second "cat" portion of the string. The first "cat" portion is captured in capture group 1, and the back-reference \1 matches the same text as capture group 1.
 
 Here's an example of how you might use a back-reference in a more complex regex:
 
-/(\d+)-\1/
+`/(\d+)-\1/`
 
 This regex uses a back-reference (\1) to match a repetition of a captured group. In this case, the regex will match any string that contains a sequence of digits followed by a dash and the same sequence of digits. For example, the regex would match the string "123-123" but not the string "123-456".
 
